@@ -43,3 +43,7 @@ Discovering the world, one trail at a time
 		Nearby hotels/lodging
 		Nearby cheapest gas
 		Nearby car rentals
+
+
+#Kellan's expedia API key:
+lwU063CjonuqFhOUJGLKdI15qIw9F4R0
