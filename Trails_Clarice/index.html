@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trails</title>
+        <link rel="stylesheet" type="text/css" href="trails.css">
+        <script src = "trails.js"></script>
+        <script src="http://maps.googleapis.com/maps/api/js"></script>
+        <script>
+            function initialize() {
+            var mapProp = {
+              center:new google.maps.LatLng(51.508742,-0.120850),
+              zoom:5,
+              mapTypeId:google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+    </head>
+    
+    <body>
+        <div id = "topbar"></div>
+            <h1>TRAILS</h1>
+            <h2>Discovering the world, one trail at a time.</h2>
+        </div>
+        <div id="googleMap"></div>
+        <div class = "menu">
+            <ul>
+                <li id = "homeLink">home</li>
+                <li id = "mapLink">explore</li>
+                <li id = "profileLink">trail buddy</li>
+                <li id = "searchLink">map</li>
+                <li id = "trailBuddyLink">profile</li>
+            </ul>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+body{
+    font-family: "Helvetica Neue Light", sans-serif;
+    font-weight: 50;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#googleMap {
+    width: auto;
+    height: 646px;
+}
+h1, .menu {
+    text-transform: uppercase;
+}
+h2 {
+    text-transform: lowercase;
+}
+li {
+    list-style-type: none;
+    float: left;
+    color: white;
+    font-size: 10pt; 
+    margin-top: 18px;
+    margin-right: 14px;
+}
+.menu {
+    height: 50px;
+    background-color: black;
+    position: relative;
+    bottom: 0px;
+    align-content: center;
+}
+
+ul { 
+    margin: 0;
+}
