@@ -46,4 +46,4 @@ Discovering the world, one trail at a time
 
 
 #Kellan's expedia API key:
-lwU063CjonuqFhOUJGLKdI15qIw9F4R0
+Had this up here, but probably shouldn't be visible for everyone!
